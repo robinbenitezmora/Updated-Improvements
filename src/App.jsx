@@ -1,3 +1,4 @@
+<script src="http://192.168.56.1:8097"></script>
 import React from 'react';
 import Header from './components/header/Header';
 import Nav from './components/nav/Nav';
