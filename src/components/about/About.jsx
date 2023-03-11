@@ -2,7 +2,7 @@ import React from 'react';
 import './about.css';
 import ME from '../../assets/me-about.jpg'
 import { FaAward } from 'react-icons/fa'
-import{FiUsers} from 'react-ocons/fi'
+import{FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
 
 const About = () => {
@@ -13,7 +13,7 @@ const About = () => {
 
       <div className="container about__container">
         <div className="about__me">
-          <div className="about_me-image"
+          <div className="about_me-image">
             <img src={ME} alt="About Image" />
           </div>
         </div>
@@ -44,12 +44,6 @@ const About = () => {
           <a href="#contact" className='btn btn-primary'>Let's to Talk</a>
         </div>
       </div>
-    </section>
-  )
-}
-
-
-
     </section>
   )
 }
